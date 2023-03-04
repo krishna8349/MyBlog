@@ -1,0 +1,5 @@
+Flask                  2.2.2
+Flask-MySQLdb          1.0.1
+mysql                  0.0.3
+
+first start your phpmyadmin server then run the flask app
