@@ -113,7 +113,7 @@
         </a>
       </li>
       <li>
-        <a href="/login" onclick="noBack()">
+        <a href="/login">
           <span class="icon"><i class="mdi mdi-lock"></i></span>
           <span class="menu-item-label">Logout</span>
         </a>
@@ -214,18 +214,6 @@
       }
   }
 </script>
-
-  <!-- Logout and block previous page  -->
-  <script type="text/javascript">
-    function noBack()
-     {
-         window.history.forward()
-     }
-    noBack();
-    window.onload = noBack;
-    window.onpageshow = function(evt) { if (evt.persisted) noBack() }
-    window.onunload = function() { void (0) }
-  </script>
 
   <!-- Text editor -->
   <script>

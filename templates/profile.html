@@ -121,7 +121,7 @@
         </a>
       </li>
       <li>
-        <a href="/login" onclick="noBack()">
+        <a href="/login">
           <span class="icon"><i class="mdi mdi-lock"></i></span>
           <span class="menu-item-label">Login</span>
         </a>
@@ -220,18 +220,6 @@
   </section>
   </section>
 </div>
-
-<!-- Logout and block previous page  -->
-<script type="text/javascript">
-  function noBack()
-   {
-       window.history.forward()
-   }
-  noBack();
-  window.onload = noBack;
-  window.onpageshow = function(evt) { if (evt.persisted) noBack() }
-  window.onunload = function() { void (0) }
-</script>
 
 <!-- Icons below are for demo only. Feel free to use any icon pack. Docs: https://bulma.io/documentation/elements/icon/ -->
 <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
